@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>a</h1>
+        </header>
+        <main>
+            <textarea id="input-text" placeholder="Digite seu texto"></textarea>
+            <div class="info">
+                <p>Apenas letras minúsculas e sem acentos.</p>
+            </div>
+            <div class="buttons">
+                <button onclick="criptografar()">Criptografar</button>
+                <button onclick="descriptografar()">Descriptografar</button>
+            </div>
+            <textarea id="output-text" readonly placeholder="Nenhuma mensagem encontrada"></textarea>
+            <button onclick="copiar()" class="copy-button">Copiar</button>
+        </main>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
